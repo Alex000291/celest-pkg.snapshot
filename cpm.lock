@@ -1,0 +1,14 @@
+{
+  "compiler": {
+    "requirement": null,
+    "sha256": "b64b985348da7ad896aa372e01749b86d44c032f3aeda68ad93a795e0abd596c"
+  },
+  "dependencies": [],
+  "manifestHash": "e75272452da9f20b3d69eda2ad44cd4830a55ad99a67b5361390d357b61fa216",
+  "nativeArtifacts": [],
+  "package": "snapshot@0.1.0",
+  "schemaVersion": 1,
+  "scripts": [],
+  "target": "linux-x64",
+  "targetConfiguration": null
+}

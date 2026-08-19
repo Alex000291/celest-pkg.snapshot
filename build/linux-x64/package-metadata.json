@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "identity": "snapshot@0.1.0",
+    "name": "snapshot",
+    "version": "0.1.0"
+  },
+  "target": "x86_64-pc-linux-gnu",
+  "modules": [
+    {
+      "identity": "snapshot@0.1.0/src/main.celest",
+      "path": "src/main.celest",
+      "exports": [
+        {
+          "kind": "function",
+          "name": "equal",
+          "source": {"line": 9, "column": 8},
+          "parameters": ["actual", "expected"]
+        },
+        {
+          "kind": "function",
+          "name": "match",
+          "source": {"line": 3, "column": 8},
+          "parameters": ["name", "actual"]
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "identity": "cd44c27a3d6ac70d772e7654f68ca7740e4008c32eb4d5795a87ad1275d9d07f",
+      "name": "canonical snapshot protocol accepts explicit updates",
+      "moduleIdentity": "snapshot@0.1.0/src/main.celest",
+      "sourceIdentity": "snapshot@0.1.0/src/main.celest",
+      "range": {"start": {"line": 15, "column": 6}, "end": {"line": 15, "column": 60}}
+    }
+  ],
+  "nativeModules": ["Test"],
+  "linkDirectives": []
+}

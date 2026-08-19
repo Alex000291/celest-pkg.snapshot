@@ -1,0 +1,17 @@
+import "std:Test";
+
+export function match(name, actual) {
+    if (Test.snapshot(name, actual) == 0) {
+        throw "snapshot differs; run cpm test --snapshot-update to accept it";
+    }
+}
+
+export function equal(actual, expected) {
+    if (Test.byte_equal(actual, expected) == 0) {
+        throw "snapshot bytes differ";
+    }
+}
+
+test "canonical snapshot protocol accepts explicit updates" {
+    match("canonical-bytes", byte(01 02 03));
+}
