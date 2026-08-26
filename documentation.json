@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "name": "snapshot",
+  "title": { "en": "Snapshot", "zh": "Snapshot 快照测试" },
+  "summary": { "en": "Canonical byte snapshots integrated with cpm test update mode.", "zh": "与 cpm test 更新模式集成的规范字节快照。" },
+  "compatibility": { "en": "Celest 0.1 and cpm test --snapshot-update", "zh": "Celest 0.1 与 cpm test --snapshot-update" },
+  "sections": [
+    { "id": "snapshots", "title": { "en": "Snapshot matching", "zh": "快照匹配" }, "description": { "en": "match compares canonical bytes with the stored snapshot; update mode accepts intentional changes.", "zh": "match 将规范字节与已存快照比较；更新模式用于接受有意变更。" }, "module": "snapshot", "source": "src/main.celest", "example": "src/main.celest" }
+  ]
+}

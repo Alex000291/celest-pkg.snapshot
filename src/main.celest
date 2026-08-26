@@ -1,4 +1,6 @@
 import "std:Test";
+import "std:JSON";
+import "std:Bytes";
 
 export function match(name, actual) {
     if (Test.snapshot(name, actual) == 0) {
@@ -10,6 +12,15 @@ export function equal(actual, expected) {
     if (Test.byte_equal(actual, expected) == 0) {
         throw "snapshot bytes differ";
     }
+}
+
+export function json(name, value) {
+    byte[8] encoded = JSON.stringify(value);
+    match(name, Bytes.dynamic_bytes((Object)encoded));
+}
+
+export function object(name, value) {
+    json(name, value);
 }
 
 test "canonical snapshot protocol accepts explicit updates" {

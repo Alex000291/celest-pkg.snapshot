@@ -14,14 +14,26 @@
         {
           "kind": "function",
           "name": "equal",
-          "source": {"line": 9, "column": 8},
+          "source": {"line": 11, "column": 8},
           "parameters": ["actual", "expected"]
         },
         {
           "kind": "function",
+          "name": "json",
+          "source": {"line": 17, "column": 8},
+          "parameters": ["name", "value"]
+        },
+        {
+          "kind": "function",
           "name": "match",
-          "source": {"line": 3, "column": 8},
+          "source": {"line": 5, "column": 8},
           "parameters": ["name", "actual"]
+        },
+        {
+          "kind": "function",
+          "name": "object",
+          "source": {"line": 22, "column": 8},
+          "parameters": ["name", "value"]
         }
       ]
     }
@@ -32,9 +44,9 @@
       "name": "canonical snapshot protocol accepts explicit updates",
       "moduleIdentity": "snapshot@0.1.0/src/main.celest",
       "sourceIdentity": "snapshot@0.1.0/src/main.celest",
-      "range": {"start": {"line": 15, "column": 6}, "end": {"line": 15, "column": 60}}
+      "range": {"start": {"line": 26, "column": 6}, "end": {"line": 26, "column": 60}}
     }
   ],
-  "nativeModules": ["Test"],
+  "nativeModules": ["Bytes", "JSON", "Test"],
   "linkDirectives": []
 }
