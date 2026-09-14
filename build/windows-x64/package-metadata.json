@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "package": {
-    "identity": "snapshot@0.1.0",
+    "identity": "snapshot@1.0.0",
     "name": "snapshot",
-    "version": "0.1.0"
+    "version": "1.0.0"
   },
   "target": "x86_64-pc-windows-msvc",
   "modules": [
     {
-      "identity": "snapshot@0.1.0/src/main.celest",
+      "identity": "snapshot@1.0.0/src/main.celest",
       "path": "src/main.celest",
       "exports": [
         {
@@ -40,13 +40,14 @@
   ],
   "tests": [
     {
-      "identity": "cd44c27a3d6ac70d772e7654f68ca7740e4008c32eb4d5795a87ad1275d9d07f",
+      "identity": "421c4506aa8a090cb2c133bfc4d7b185facffd226c4d3f582e408787d9ec13d8",
       "name": "canonical snapshot protocol accepts explicit updates",
-      "moduleIdentity": "snapshot@0.1.0/src/main.celest",
-      "sourceIdentity": "snapshot@0.1.0/src/main.celest",
+      "moduleIdentity": "snapshot@1.0.0/src/main.celest",
+      "sourceIdentity": "snapshot@1.0.0/src/main.celest",
       "range": {"start": {"line": 26, "column": 6}, "end": {"line": 26, "column": 60}}
     }
   ],
+  "contracts": [  ],
   "nativeModules": ["Bytes", "JSON", "Test"],
   "linkDirectives": []
 }

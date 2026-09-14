@@ -1,12 +1,12 @@
 {
   "compiler": {
     "requirement": null,
-    "sha256": "8c38097dbc5897c660ac02d61a259f1f513b2c5fd89b6bf534122de2529fa903"
+    "sha256": "a2be0ceb4fb4931b513aa1d51dc2421b3272fb99e59d0ba91a01f539d5f398b3"
   },
   "dependencies": [],
-  "manifestHash": "e75272452da9f20b3d69eda2ad44cd4830a55ad99a67b5361390d357b61fa216",
+  "manifestHash": "0c6f226f0e13d8e60d39393f1dc25538ac2aa68a54d0698bf45a63d4f3b2e26e",
   "nativeArtifacts": [],
-  "package": "snapshot@0.1.0",
+  "package": "snapshot@1.0.0",
   "schemaVersion": 1,
   "scripts": [],
   "target": "windows-x64",

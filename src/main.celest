@@ -16,7 +16,7 @@ export function equal(actual, expected) {
 
 export function json(name, value) {
     byte[8] encoded = JSON.stringify(value);
-    match(name, Bytes.dynamic_bytes((Object)encoded));
+    match(name, Bytes.dynamic_bytes(encoded));
 }
 
 export function object(name, value) {
